@@ -6,13 +6,13 @@ export const menuNavigate = [
         title: "Limpiar filtros"
     },
     {
-        id: "urbanas",
-        path: "/category/urbanas",
-        title: "Urbanas"
+        id: "jugetes",
+        path: "/category/jugetes",
+        title: "jugetes"
     },
     {
-        id: "deportivas",
-        path: "/category/deportivas",
-        title: "Deportivas"
+        id: "muebles",
+        path: "/category/muebles",
+        title: "muebles"
     },
 ] 
