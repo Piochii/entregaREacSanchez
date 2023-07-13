@@ -3,12 +3,12 @@ export const menuNavigate = [
     {
         id: "home",
         path: "/",
-        title: "Limpiar filtros"
+        title: "Todo"
     },
     {
         id: "jugetes",
         path: "/category/jugetes",
-        title: "jugetes"
+        title: "juguetes"
     },
     {
         id: "muebles",

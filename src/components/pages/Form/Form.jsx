@@ -1,8 +1,7 @@
 import { useState } from "react";
 
 const Form = () => {
-  //   const [name, setName] = useState("");
-  //   const [lastName, setLastName] = useState("");
+ 
 
   const [userData, setUserData] = useState({
     name: "",
@@ -12,10 +11,7 @@ const Form = () => {
   const handleSubmit = (evento) => {
     evento.preventDefault();
 
-    // if( !userData.lastName.includes("@")){
-    //     console.log("el campo email no es valido")
-    //     return
-    // }
+  
 
     if(userData.name.length < 3){
         console.log("El nombre no puede ser menor a 3")
@@ -27,7 +23,7 @@ const Form = () => {
       apellidoUsuario: userData.lastName,
     };
 
-    // mandarle info al back - para logearme
+   
     console.log(data);
   };
 
